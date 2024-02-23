@@ -10,31 +10,31 @@ class Config(object):
 
     # <================================================ REQUIRED ======================================================>
     # Telegram API configuration
-    API_ID = 6433468  # Get this value from my.telegram.org/apps
-    API_HASH = "7895dfd061f656367ccab30032"
+    API_ID = 24658337  # Get this value from my.telegram.org/apps
+    API_HASH = "bf99242dbb7f3501f28d39f0a0383cbf"
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgres://ierjlkr:OG4dxzO67Zret3Zii43Hhvujkg89WVry0n9KsHE@karma.db.elephantsql.com/ierjlkr"
+    DATABASE_URL = "postgres://ljdriyar:QpkDtjVV2bMteyGZar7-lT0ebd660Acm@lucky.db.elephantsql.com/ljdriyar"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -1001629811868
-    MESSAGE_DUMP = -1001629811868
+    EVENT_LOGS = -1001982513585
+    MESSAGE_DUMP = -1001982513585
 
     # MongoDB configuration
-    MONGO_DB_URI = "mongodb+srv://t45:t45@cluster0.plfylpo.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI = "mongodb+srv://Itachi:Itachi@itachi.rcfnknv.mongodb.net/?retryWrites=true&w=majority"
 
     # Support chat and support ID
-    SUPPORT_CHAT = "ProjectCodeXSupport"
-    SUPPORT_ID = -1001629811868
+    SUPPORT_CHAT = "Devine_Support"
+    SUPPORT_ID = -1001982513585
 
     # Database name
     DB_NAME = "MikoDB"
 
     # Bot token
-    TOKEN = "2323839365:AAFgfdadqawlfdsM7slOa33eM_ghop"  # Get bot token from @BotFather on Telegram
+    TOKEN = "6924632975:AAG96JkzNKBIgRb1yxP06ZqPSBRu2JyCHfI"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
-    OWNER_ID = 5907205317
+    OWNER_ID = 6402009857
     # <=======================================================================================================>
 
     # <================================================ OPTIONAL ======================================================>
@@ -44,7 +44,7 @@ class Config(object):
     BL_CHATS = []
 
     # User IDs of sudo users, dev users, support users, tiger users, and whitelist users
-    DRAGONS = []  # Sudo users
+    DRAGONS = [6440363814]  # Sudo users
     DEV_USERS = []  # Dev users
     DEMONS = []  # Support users
     TIGERS = []  # Tiger users
